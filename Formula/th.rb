@@ -1,8 +1,8 @@
 class Th < Formula
   desc ""
   homepage "https://github.com/nikomain/brew-scripts"
-  url "https://github.com/YouLend/homebrew-scripts/archive/refs/tags/th-v1.1.1.tar.gz"
-  sha256 "6b5ba5cb78122cde154ffc7ebfa3f2e1e91f2eb937f9d8da367acb0078c9c5f7"
+  url "https://github.com/YouLend/homebrew-scripts/archive/refs/tags/th-v1.1.2.tar.gz"
+  sha256 "426ada6bac876b901f5402b03b223aa026916bb0a80c08f3e6cdc95c2cb6f59a"
   license ""
 
   def install
