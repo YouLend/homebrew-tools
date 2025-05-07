@@ -6,10 +6,8 @@ class Th < Formula
   license ""
 
   def install
-    Dir.chdir("brew-scripts/th") do
-      bin.install "installer.sh" => "th-install"
-      pkgshare.install "th-functions.sh"
-    end
+    bin.install "installer.sh" => "th-install"
+    pkgshare.install "th-functions.sh"
   end
 
   def caveats
