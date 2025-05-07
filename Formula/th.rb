@@ -6,8 +6,10 @@ class Th < Formula
   license ""
 
   def install
-    bin.install "installer.sh" => "th-install"
-    pkgshare.install "th-functions.sh"
+    Dir.chdir("th") do
+      bin.install "installer.sh" => "th-install"
+      pkgshare.install "th-functions.sh"
+    end
   end
 
   def caveats
