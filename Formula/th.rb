@@ -9,6 +9,7 @@ class Th < Formula
     Dir.chdir("th") do
       bin.install "installer.sh" => "th-install"
       pkgshare.install "th.sh"
+      pkgshare.install "th.config"
       pkgshare.install "functions"
     end
   end
