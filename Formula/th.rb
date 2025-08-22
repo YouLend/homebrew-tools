@@ -1,8 +1,8 @@
 class Th < Formula
   desc ""
   homepage "https://github.com/YouLend/homebrew-tools"
-  url "https://github.com/YouLend/homebrew-scripts/archive/refs/tags/th-v1.5.1.tar.gz"
-  sha256 "29ca78c5c751a8f2d8cb5b6900033fb97d9de8ac63dd575b666c5b53879ad2fc"
+  url "https://github.com/YouLend/homebrew-scripts/archive/refs/tags/th-v1.5.2.tar.gz"
+  sha256 "db54dbd31735d4f15cd430306b6709e81eace1a5bbee3c0f0f9a47df4c3943e3"
   license ""
 
   def install
