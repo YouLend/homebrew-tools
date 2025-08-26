@@ -7,7 +7,7 @@ class Th < Formula
 
   def install
     Dir.chdir("th") do
-      bin.install "installer.sh" => "th-install"
+      bin.install "config/installer.sh" => "th-install"
       pkgshare.install "th.sh"
       pkgshare.install "config"
       pkgshare.install "functions"
